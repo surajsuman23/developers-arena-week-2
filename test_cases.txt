@@ -1,0 +1,30 @@
+Week 2 execution checks — 29 October 2026
+Runtime: 3.14.5
+
+PASS: marks 0 => F
+PASS: marks 59 => F
+PASS: marks 60 => D
+PASS: marks 69 => D
+PASS: marks 70 => C
+PASS: marks 79 => C
+PASS: marks 80 => B
+PASS: marks 89 => B
+PASS: marks 90 => A
+PASS: marks 100 => A
+PASS: '-1' rejected; retry 85 => B
+PASS: '101' rejected; retry 85 => B
+PASS: 'abc' rejected; retry 85 => B
+PASS: '' rejected; retry 85 => B
+PASS: '85.5' rejected; retry 85 => B
+PASS: '85.0' rejected; retry 85 => B
+PASS: 'nan' rejected; retry 85 => B
+PASS: 'inf' rejected; retry 85 => B
+PASS: blank name retried; surrounding spaces trimmed
+PASS: EOF cancellation without partial grade
+PASS: EOF cancellation without partial grade
+PASS: direct function rejects -1
+PASS: direct function rejects 101
+PASS: keyboard interruption handled
+PASS: practice exercises and guessing-game validation
+
+25 checks passed.

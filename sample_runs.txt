@@ -1,0 +1,28 @@
+Normal result
+Student Grade Calculator
+------------------------
+Enter student name: Priya
+Enter marks (0-100): 85
+
+RESULT FOR PRIYA
+Marks: 85/100
+Grade: B
+Message: Very good! Keep it up.
+
+
+Invalid input and recovery
+Student Grade Calculator
+------------------------
+Enter student name: Alex
+Enter marks (0-100): abc
+Please enter a whole number, such as 85.
+Enter marks (0-100): -5
+Marks must be between 0 and 100. Please try again.
+Enter marks (0-100): 101
+Marks must be between 0 and 100. Please try again.
+Enter marks (0-100): 90
+
+RESULT FOR ALEX
+Marks: 90/100
+Grade: A
+Message: Excellent work! Keep challenging yourself.
